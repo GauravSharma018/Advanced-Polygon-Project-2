@@ -1,6 +1,7 @@
-# zardkat 🐱
+# Poly Proof Advances Project 2
 
-A [hardhat-circom](https://github.com/projectsophon/hardhat-circom) template to generate zero-knowledge circuits, proofs, and solidity verifiers
+# Description
+Designing a new zkSNARK circuit in Polygon that implements some logical operations. Also implementing the circuit and deploying a verifier on-chain to verify proofs generated from this circuit For this project, you will create a circuit using the circom programming language.
 
 ## Quick Start
 Compile the Multiplier2() circuit and verify it against a smart contract verifier
