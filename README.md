@@ -71,7 +71,7 @@ component main = Multiplier2();
 This will generate the **out** file with circuit intermediaries and geneate the **MultiplierVerifier.sol** contract
 
 ### Prove and Deploy
-`npx hardhat run scripts/deploy.ts`
+`npx hardhat run scripts/deploy.ts --network amoy`
 This script does 4 things  
 1. Deploys the MultiplierVerifier.sol contract
 2. Generates a proof from circuit intermediaries with `generateProof()`
@@ -79,9 +79,6 @@ This script does 4 things
 4. Calls `verifyProof()` on the verifier contract with calldata
 
 With two commands you can compile a ZKP, generate a proof, deploy a verifier, and verify the proof 🎉
-
-### Deployon a live network
-We deploy the file on the network polygon amoy by using "npx hardhat run scripts/deploy.ts --network amoy".
 
 ## Configuration
 ### Directory Structure
