@@ -71,6 +71,7 @@ component main = Multiplier2();
 This will generate the **out** file with circuit intermediaries and geneate the **MultiplierVerifier.sol** contract
 
 ### Prove and Deploy
+`npx hardhat run scripts/deploy.ts`
 `npx hardhat run scripts/deploy.ts --network amoy`
 This script does 4 things  
 1. Deploys the MultiplierVerifier.sol contract on Polygon Amoy live netwok.
